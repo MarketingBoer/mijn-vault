@@ -5,4 +5,8 @@
 - Versiebeheer: Werk compatibel met de actieve GitHub repository.
 
 # Einde Sessie Protocol
-EINDE SESSIE PROTOCOL: Aan het einde van elke taak, sessie, of wanneer de gebruiker aangeeft klaar te zijn, ben jij verplicht om: A) Het sessie-logboek in /logs te schrijven. B) Volledig autonoom `git add .`, een beschrijvende `git commit`, en `git push origin main` uit te voeren. Wacht niet op een herinnering hiervoor.
+EINDE SESSIE PROTOCOL:
+Vraag aan het einde van elke sessie of taak proactief: 'Wil je de bijzonderheden van deze sessie opslaan in de Vault en GitHub? (Ja/Nee)'.
+- Bij JA: Schrijf de log in /logs, voer 'git add .', 'git commit' en 'git push' uit.
+- Bij NEE: Beëindig de sessie zonder verdere acties.
+Wacht altijd op dit expliciete antwoord voordat je afsluit.
